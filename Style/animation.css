@@ -1,0 +1,265 @@
+.animation::after {
+    content: "|";
+    animation: typing 12s linear infinite;
+}
+.test::after {
+    content: "|";
+}
+
+@keyframes typing {
+    0% {
+        content: "";
+    }
+
+    1.8315018315018319% {
+        content: "L";
+    }
+
+    3.6630036630036638% {
+        content: "La";
+    }
+
+    5.494505494505495% {
+        content: "Lar";
+    }
+
+    7.3260073260073275% {
+        content: "Larr";
+    }
+
+    9.157509157509159% {
+        content: "Larry";
+    }
+
+    10.98901098901099% {
+        content: "Larry ";
+    }
+
+    12.820512820512823% {
+        content: "Larry D";
+    }
+
+    14.652014652014655% {
+        content: "Larry Da";
+    }
+
+    16.483516483516485% {
+        content: "Larry Dan";
+    }
+
+    18.315018315018317% {
+        content: "Larry Dani";
+    }
+
+    20.14652014652015% {
+        content: "Larry Danie";
+    }
+
+    21.97802197802198% {
+        content: "Larry Daniel";
+    }
+
+    23.809523809523814% {
+        content: "Larry Daniels";
+    }
+
+    28.205128205128208% {
+        content: "Larry Daniels";
+    }
+
+    28.571428571428573% {
+        content: "Larry Daniel";
+    }
+
+    28.93772893772894% {
+        content: "Larry Danie";
+    }
+
+    29.304029304029307% {
+        content: "Larry Dani";
+    }
+
+    29.67032967032967% {
+        content: "Larry Dan";
+    }
+
+    30.03663003663004% {
+        content: "Larry Da";
+    }
+
+    30.402930402930405% {
+        content: "Larry D";
+    }
+
+    30.769230769230774% {
+        content: "Larry ";
+    }
+
+    31.13553113553114% {
+        content: "Larry";
+    }
+
+    31.501831501831504% {
+        content: "Larr";
+    }
+
+    31.868131868131872% {
+        content: "Lar";
+    }
+
+    32.234432234432234% {
+        content: "La";
+    }
+
+    32.600732600732606% {
+        content: "L";
+    }
+
+    33.333333333333336% {
+        content: "";
+    }
+
+    36.30952380952381% {
+        content: "D";
+    }
+
+    39.28571428571429% {
+        content: "De";
+    }
+
+    42.261904761904766% {
+        content: "Des";
+    }
+
+    45.23809523809524% {
+        content: "Desi";
+    }
+
+    48.21428571428572% {
+        content: "Desig";
+    }
+
+    51.1904761904762% {
+        content: "Design";
+    }
+
+    54.16666666666667% {
+        content: "Designe";
+    }
+
+    57.14285714285715% {
+        content: "Designer";
+    }
+
+    61.30952380952382% {
+        content: "Designer";
+    }
+
+    61.90476190476191% {
+        content: "Designe";
+    }
+
+    62.50000000000001% {
+        content: "Design";
+    }
+
+    63.0952380952381% {
+        content: "Desig";
+    }
+
+    63.6904761904762% {
+        content: "Desi";
+    }
+
+    64.28571428571429% {
+        content: "Des";
+    }
+
+    64.88095238095238% {
+        content: "De";
+    }
+
+    65.47619047619048% {
+        content: "D";
+    }
+
+    66.66666666666667% {
+        content: "";
+    }
+
+    69.31216931216932% {
+        content: "D";
+    }
+
+    71.95767195767196% {
+        content: "De";
+    }
+
+    74.60317460317461% {
+        content: "Dev";
+    }
+
+    77.24867724867725% {
+        content: "Deve";
+    }
+
+    79.8941798941799% {
+        content: "Devel";
+    }
+
+    82.53968253968254% {
+        content: "Develo";
+    }
+
+    85.18518518518519% {
+        content: "Develop";
+    }
+
+    87.83068783068784% {
+        content: "Develope";
+    }
+
+    90.47619047619048% {
+        content: "Developer";
+    }
+
+    94.70899470899471% {
+        content: "Developer";
+    }
+
+    95.23809523809524% {
+        content: "Develope";
+    }
+
+    95.76719576719577% {
+        content: "Develop";
+    }
+
+    96.29629629629629% {
+        content: "Develo";
+    }
+
+    96.82539682539682% {
+        content: "Devel";
+    }
+
+    97.35449735449735% {
+        content: "Deve";
+    }
+
+    97.88359788359789% {
+        content: "Dev";
+    }
+
+    98.41269841269842% {
+        content: "De";
+    }
+
+    98.94179894179894% {
+        content: "D";
+    }
+
+    100% {
+        content: "";
+    }
+}

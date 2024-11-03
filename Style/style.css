@@ -1,0 +1,304 @@
+@import url(./general.css);
+@import url(./animation.css);
+
+/*^ ---- Nav Bar ---- */
+/*? -- Line .Active -- */
+.bg-costume {
+    z-index: 99999 !important;
+    background-color: var(--primary-background-color) !important;
+}
+
+.nav-item .under-line::before {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 8px !important;
+    width: 0% !important;
+    height: 2px !important;
+    transition: all linear 0.5s !important;
+}
+
+.nav-item .under-line.active:before {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 8px !important;
+    width: 75% !important;
+    height: 2px !important;
+}
+
+.navbar-toggler:focus {
+    outline: 0 !important;
+    box-shadow: unset !important;
+}
+
+/*^ ---- Header ---- */
+/*? -- Over Lay -- */
+.overlay-home {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header {
+    height: 100vh;
+    background-image: url(../Image/bg.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/**-------------- About Section -------------- */
+.about {
+    background-color: var(--primary-background-color);
+}
+
+/*? -- About Content -- */
+.about-title p {
+    color: #999 !important;
+}
+
+.about-content p {
+    color: #748182 !important;
+}
+
+/*? -- Progress -- */
+.progress-item {
+    height: 25px !important;
+}
+
+/*? -- Buttons CV -- */
+.btn-dark:hover {
+    background-color: #fff !important;
+    color: #1C1C1C !important;
+    transition: all ease-in-out 0.5s;
+}
+
+.btn-close-white:hover {
+    background-color: #1C1C1C !important;
+    color: #fff !important;
+    transition: all ease-in-out 0.5s;
+}
+
+/*? -- About Image -- */
+.image img {
+    z-index: 1;
+}
+
+.image::before {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    bottom: 0px;
+    left: 0;
+    z-index: 0;
+    background-image: url(../Image/dots.png);
+    background-size: 10px;
+    background-repeat: repeat;
+    background-position: top bottom;
+}
+
+/**-------------- Services Section -------------- */
+.services {
+    background-color: var(--second-background-color);
+}
+
+.item-card {
+    background-color: #FFffff;
+}
+
+.icon-service {
+    background-color: #f4f4f4 !important;
+    width: 70px !important;
+    height: 70px !important;
+    font-size: 25px;
+    transition: all linear 0.5s;
+}
+
+.item-card:hover .icon-service {
+    background-color: #1C1C1C !important;
+    color: #ffffff !important;
+}
+
+/**-------------- Portfolio. Section ( Work ) -------------- */
+.portfolio {
+    background-color: var(--primary-background-color);
+}
+
+/*? -- Overlay Item & Hover -- */
+.overlay-item {
+    background-color: #FDFDFD;
+    transition: all ease-in-out 0.5s;
+}
+
+.show-icon,
+.title-overlay-item {
+    transition: all ease-in-out 1.2s;
+}
+
+.item:hover .overlay-item {
+    opacity: 1 !important;
+    top: 2.5% !important;
+}
+
+.item:hover .show-icon {
+    opacity: 1 !important;
+    bottom: 45% !important;
+}
+
+.item:hover .title-overlay-item {
+    opacity: 1 !important;
+    top: 35% !important;
+}
+
+.item-icon:hover,
+.item-icon:hover i {
+    background-color: #fff !important;
+    color: black !important;
+}
+
+/*? -- Tabs & Line Active -- */
+.nav-pills .nav-link.active {
+    background-color: transparent !important;
+}
+
+.nav-link::before {
+    content: '' !important;
+    position: absolute !important;
+    bottom: 4px !important;
+    width: 0% !important;
+    height: 2px !important;
+    background-color: #000 !important;
+    transition: width linear 0.5s !important;
+}
+
+.nav-link.active:before {
+    content: '' !important;
+    position: absolute !important;
+    width: 40% !important;
+    height: 2px !important;
+    background-color: #000 !important;
+}
+
+/*? -- Coustom Line Active -- */
+.coustom-line.active:before {
+    content: '' !important;
+    position: absolute !important;
+    width: 65% !important;
+    height: 2px !important;
+    background-color: #000 !important;
+}
+
+/*? -- Carousel -- */
+.offcanvas-start {
+    height: fit-content !important;
+}
+
+.left--100 {
+    left: -100% !important;
+}
+
+/**-------------- Testimonials. Section ( Clients ) -------------- */
+.clients {
+    background-color: var(--second-background-color);
+}
+
+.image-carousel {
+    width: 100px;
+    height: 100px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px !important;
+    height: 10px !important;
+    background-color: #869791 !important;
+}
+
+.carousel-indicators .hover:hover {
+    background-color: #5b6d68 !important;
+}
+
+/**-------------- Counters -------------- */
+.counters {
+    background-color: var(--primary-background-color);
+}
+
+.item p {
+    color: #748182 !important;
+}
+
+/**-------------- Our Team. ( Teams ) -------------- */
+.teams {
+    background-color: var(--second-background-color);
+}
+
+.card-body {
+    background-color: #5B5B5B !important;
+}
+
+.card-hover:hover .card-overlay-item {
+    transform: rotateY(180deg);
+    opacity: 1 !important;
+    top: 2% !important;
+    bottom: 2% !important;
+    left: 2% !important;
+    right: 2% !important;
+}
+
+.card-hover:hover .image-card img {
+    transform: scale(1.2);
+}
+
+.image-card img {
+    transition: all ease-in-out 0.3s;
+}
+
+.card-overlay-item {
+    top: 20% !important;
+    bottom: 20% !important;
+    left: 20% !important;
+    right: 20% !important;
+    opacity: 0 !important;
+    transition: all ease-in-out 0.5s;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.coustom-social-icon {
+    transform: rotateY(180deg);
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #03121B !important;
+}
+
+.hover-coustom-social-icon:hover {
+    background-color: var(--primary-background-color) !important;
+}
+
+.hover-coustom-social-icon:hover i {
+    color: black !important;
+}
+
+/**-------------- Contact -------------- */
+.contact {
+    background-color: var(--primary-background-color);
+}
+
+.contact .card-title p {
+    color: #748182;
+}
+
+.form-control {
+    color: #343434 !important;
+    background-color: #f4f4f4 !important;
+    border: 0 !important;
+}
+
+.form-control:focus {
+    background-color: #f4f4f4 !important;
+    border-color: transparent !important;
+    box-shadow: unset !important;
+}
+
+/**-------------- Footer -------------- */
+.footer {
+    background-color: #1C1C1C !important;
+    color: #748182;
+}
